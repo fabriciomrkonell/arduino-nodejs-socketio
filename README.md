@@ -2,7 +2,7 @@
 
 Comunicação com NodeJS, via Socket.IO com o Arduino.
 
-Copyright (C) 2015  Fabricio Ronchi / João Pedro Schmitt
+Copyright (C) 2015  Fabrício Ronchi / João Pedro Schmitt
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,6 +18,5 @@ Copyright (C) 2015  Fabricio Ronchi / João Pedro Schmitt
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #Autores
-Joao Pedro Schmitt
-Fabrício Ronchi
+<a href="http://fabricioronchi.com">Fabrício Ronchi</a> / João Pedro Schmitt
 
