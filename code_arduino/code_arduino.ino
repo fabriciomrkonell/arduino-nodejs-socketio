@@ -5,7 +5,7 @@ byte mac[] = { 0x90, 0xA2, 0xDA, 0x00, 0x6C, 0xFE };
 IPAddress ip(192,168,0,225);
 IPAddress server(192,168,0,3);
 
-int buzzer = 9;
+int buzzer = 8;
 int pinVal = 0;
 
 EthernetClient client;
@@ -15,7 +15,7 @@ void setup() {
   Serial.begin(9600);
   delay(1000);
   Serial.println("Conectando...");
-  if (client.connect(server, 1337)) {  
+  if (client.connect(server, 1337)) {
     Serial.println("Conectado.");
   } else {
     Serial.println("Erro: Conexo falhou.");
@@ -23,7 +23,7 @@ void setup() {
   pinMode(buzzer, OUTPUT);
 }
 
-void loop() {  
+void loop() {
   if (client.available()) {
     char c = client.read();
     Serial.print(c);
@@ -32,8 +32,8 @@ void loop() {
 //      client.print('1');
     } else if (c == '0') {
       pinVal = LOW;
-  //    client.print('0'); 
-    }   
+  //    client.print('0');
+    }
     digitalWrite(buzzer, pinVal);
   }
 
