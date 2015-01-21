@@ -1,2 +1,3 @@
-# arduino-nodejs-socketio
-Comunicação via socket.io com arduino.
+# Arduino + NodeJS + Socket.IO
+
+Comunicação com NodeJS, via Socket.IO com o Arduino.
