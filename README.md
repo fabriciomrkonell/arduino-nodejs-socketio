@@ -1,6 +1,6 @@
 # Arduino + NodeJS + Socket.IO
 
-Comunicação com NodeJS, via Socket.IO com o Arduino.
+Comunicação NodeJS + Socket.IO com o Arduino.
 
 Copyright (C) 2015  Fabrício Ronchi / João Pedro Schmitt
 
